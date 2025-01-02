@@ -22,6 +22,6 @@ const btnSubmit = document.querySelector('#btn-submit').addEventListener('click'
     let precoFinal = productPrice - (productPrice * (prodPercentage / 100))
 
     let result = document.querySelector('span')
-    result.innerText = precoFinal
+    result.innerText = ('R$' + precoFinal)
 
 })
