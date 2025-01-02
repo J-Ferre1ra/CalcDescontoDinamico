@@ -1,0 +1,26 @@
+.container-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid red;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+}
+#priceProd{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#percentageProd{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#btn-submit{
+    border: 1px solid black;
+    border-radius:25px;
+}
